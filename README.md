@@ -1,4 +1,10 @@
 # HoneypotScripts
 Advanced Cybersecurity Experience for Students (ACES) Research Project 
 
-This repository contains scripts developed for a Research Project for the ACES Honors Program. This project focuses on attacker behavior and how it varies on various environments (IoT Device, Web Server, Personal Computer, and Database Server). Please see the Final Paper pdf for a detailed report of our process and findings. 
+This repository contains scripts developed for a Research Project for the ACES Honors Program. The Honeypot project focuses on attacker behavior and how it varies on various environments (IoT Device, Web Server, Personal Computer, and Database Server). We developed, maintained, and monitored four honeypots that emulated each of these environments.
+
+Please note that this repository holds the scripts that were used to monitor the health of, populate data, log attacker behavior and traffic, and recycle the containers. File paths may differ within the scripts. 
+
+We also developed firewall scripts to protect the university from the risks associated with allowing real attackers to interact with our honeypots. However, this script has been excluded for security reasons. 
+
+Please see the [Final Paper](https://github.com/mausam-patel/Honeypot_Project/Final_Paper.pdf) for a detailed report of our process and findings. 
